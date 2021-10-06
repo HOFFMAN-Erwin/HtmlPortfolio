@@ -5,7 +5,7 @@
     <title>Mi primera web</title>
 </head>
 <body>
-    <form action="/formulario" method="post">
+    <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
         <input value="Chanchito" id="nombre" placeholder="Nombre" />
         <br>
@@ -15,7 +15,10 @@
         <label for="comentario">Comentario</label>
         <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese Comentario" name="Comentario">Este es un valor por defecto</textarea>
         <br>
-        <input type="submit"/>
+        <!--<input type="submit"/>-->
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
     </form>
     <h1>Mi primer heading</h1>
     <h2>Mi segundo heading</h2>
