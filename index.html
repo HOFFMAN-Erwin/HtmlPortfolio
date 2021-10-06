@@ -3,8 +3,66 @@
 <head>
     
     <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
+    <table style="width: 500px" >
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                <td>$19,90</td>
+            </tr>
+            <tr>
+                <td>Chanchito recontra feliz</td>
+                <td>$29,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>$49,80</td>
+        </tfoot>
+    </table>
+
+
+
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+    </ul>
+    <ol>
+        <li value="50">Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub Elemento1</li>
+                <li style="list-style-type: lower-alpha;">Sub Elemento2</li>
+                <li style="list-style-type: lower-alpha;">Sub Elemento3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
     <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
         <input value="Chanchito" id="nombre" placeholder="Nombre" />
